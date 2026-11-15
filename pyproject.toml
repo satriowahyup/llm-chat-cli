@@ -1,0 +1,27 @@
+[project]
+name = "llm-chat-cli"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "satriowahyup", email = "satriowahyuprasetyo@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "google-genai>=3.3.0",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+llm-chat-cli = "llm_chat_cli:main"
+
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
+
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
