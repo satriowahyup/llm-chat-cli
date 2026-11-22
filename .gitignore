@@ -19,3 +19,16 @@ venv/
 .env
 .env.*
 !.env.example
+
+# Local scratch and temporary scripts
+scratch.py
+
+# Personal learning notes and roadmap documents
+docs/
+
+# User chat transcripts and exports
+transcripts/*
+!transcripts/.gitkeep
+*.transcript.md
+*.transcript.json
+riwayat_belajar.*
